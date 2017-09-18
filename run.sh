@@ -1,0 +1,12 @@
+python -m nmt.nmt \
+    --src=en --tgt=zh \
+    --train_prefix=data/train_10000 \
+    --dev_prefix=data/dev_1000 \
+    --test_prefix=data/valid_11000_12000 \
+    --out_dir=/tmp/nmt_en2zh_model \
+    --num_train_steps=12000 \
+    --steps_per_stats=100 \
+    --num_layers=2 \
+    --num_units=128 \
+    --dropout=0.2 \
+    --metrics=bleu

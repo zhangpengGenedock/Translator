@@ -1,0 +1,6 @@
+
+/data/train.en
+/data/train.zh
+/.idea/
+/nmt/*/*.pyc
+/nmt/*.pyc

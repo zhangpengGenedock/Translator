@@ -34,5 +34,5 @@
   "time_major": true,
   "unit_type": "lstm",
   "beam_width": 10,
-  "length_penalty_weight": 1.0
+  "length_penalty_weight": 0.0
 }

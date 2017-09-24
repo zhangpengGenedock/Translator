@@ -1,4 +1,5 @@
 
+scripts/libthulac.so
 /data/train.en
 /data/train.zh
 /.idea/
@@ -6,3 +7,8 @@
 /nmt/*.pyc
 model/*
 model/*/*
+actual_data/*
+actual_data/*/*
+nohup.out
+vocab.en_bak
+vocab.zh_bak

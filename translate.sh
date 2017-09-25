@@ -1,4 +1,4 @@
 python -m nmt.nmt \
     --out_dir=model/ \
-    --inference_input_file=actual_data/dev_seg.en \
-    --inference_output_file=data/output_infer
+    --inference_input_file=ai_data/ai_challenger_translation_test_a_20170923.en_seg \
+    --inference_output_file=ai_data/ai_challenger_translation_test_a_20170923.zh_seg

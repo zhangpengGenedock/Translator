@@ -7,6 +7,8 @@ scripts/libthulac.so
 /nmt/*.pyc
 model/*
 model/*/*
+stf_data/*
+stf_data/*/*
 actual_data/*
 actual_data/*/*
 !actual_data/dev_seg.zh

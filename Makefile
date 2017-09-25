@@ -1,7 +1,7 @@
 
 run:
-	rm -rf model/
-	nohup ./actual_run.sh &
+	rm -rf stf_model/
+	nohup ./stf_run.sh &
 
 board:
 	nohup ./tensorboard.sh &

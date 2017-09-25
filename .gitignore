@@ -5,6 +5,8 @@ scripts/libthulac.so
 /.idea/
 /nmt/*/*.pyc
 /nmt/*.pyc
+stf_model/*
+stf_model/*/*
 model/*
 model/*/*
 stf_data/*

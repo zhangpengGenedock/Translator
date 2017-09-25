@@ -9,6 +9,8 @@ model/*
 model/*/*
 actual_data/*
 actual_data/*/*
+!actual_data/dev_seg.zh
+!actual_data/dev_seg.en
 nohup.out
 vocab.en_bak
 vocab.zh_bak

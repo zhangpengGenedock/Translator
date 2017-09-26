@@ -7,7 +7,7 @@ if __name__ == '__main__':
         # with open('../data/dev.en') as f1, open('../data/dev.zh') as f2, open('../data/train_split.en', 'w') as f3, open('../data/train_split.zh', 'w') as f4, open('../data/test_split.en', 'w') as f5, open('../data/test_split.zh', 'w') as f6:
         X = f1.readlines()
         y = f2.readlines()
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.01, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.0008, random_state=42)
         f3.writelines(["%s" % item for item in X_train])
         f4.writelines(["%s" % item for item in y_train])
         f5.writelines(["%s" % item for item in X_test])

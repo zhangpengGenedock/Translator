@@ -5,7 +5,7 @@ python -m nmt.nmt \
     --dev_prefix=stf_data/dev_split \
     --test_prefix=stf_data/test_seg \
     --vocab_prefix=stf_data/vocab \
-    --num_gpus=2 \
+    --num_gpus=1 \
     --out_dir=stf_model 
    # --num_gpus=2 \
    # --num_train_steps=12000 \
